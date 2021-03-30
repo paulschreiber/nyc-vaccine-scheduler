@@ -20,7 +20,7 @@ A script that automates the NYC Vaccine Schedule process
   ![Sccheudle an Appointment Page](https://i.imgur.com/rWzBZg2.png)
 
 - When the script found a time slot, it will select the first time slot and go to the next page. You will see the **Location information** in the console output:
-  - If this happens, the script will refresh the page and keep trying. E.g.:
+  - However, if the time slot is no longer available, the script will refresh the page and keep trying. E.g.:
   ![Sccheudle an Appointment Page](https://i.imgur.com/ZOSNA1Q.png)
 
 - When the script successfully enters the next page with a time slot, it will stop. In the meantile, it will open a new tab to a Youtube video in order to make a sound as a notification.
